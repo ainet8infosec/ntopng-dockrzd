@@ -1,5 +1,5 @@
 FROM ubuntu:16.04
-MAINTAINER AINSD8S
+MAINTAINER AINSSD8S
 
 RUN dpkg --configure -a
 RUN apt-get update
