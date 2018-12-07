@@ -2,7 +2,7 @@
 ## Source: http://packages.ntop.org/apt/
 ###### Ref: https://github.com/lucaderi/ntopng-docker/
 
-ddocker image build -t ntopng_img:ntopng_xenial_lts -f Dockerfile .
+docker image build -t ntopng_img:ntopng_xenial_lts -f Dockerfile .
 
 docker volume create ntopng_date
 
