@@ -1,6 +1,6 @@
 # Clone, Build & Run for Xenial_LTS containerized ntopng
 ## Source: http://packages.ntop.org/apt/
-###### Ref: https://github.com/lucaderi/ntopng-docker/blob/master
+###### Ref: https://github.com/lucaderi/ntopng-docker/
 
 ddocker image build -t ntopng_img:ntopng_xenial_lts -f Dockerfile .
 
