@@ -1,6 +1,6 @@
 FROM ubuntu:bionic
 MAINTAINER AINSSD8S
-
+#LATEST UBUNTU#
 RUN dpkg --configure -a
 RUN apt-get update
 RUN apt-get -y -q install apt-utils ca-certificates wget curl lsb-release gnupg
